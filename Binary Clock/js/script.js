@@ -22,9 +22,21 @@ setInterval(() => {
     let m2 = Number(m[1]).toString(2).split('').reverse().join('')
     
     let fill = '#fff';
+    let resetColor = '#000';
     let j = 3;
+    
     for(let i = 0; i <= 3; i++) {
-        if(h1[j] === '1')
+            hour1[j].style.background = resetColor;
+            hour2[j].style.background = resetColor;
+            min1[j].style.background = resetColor;
+            min2[j].style.background = resetColor;
+        j--;
+    }
+    
+    j = 3;
+    
+    for(let i = 0; i <= 3; i++) {
+        if(h1[i] === '1')
             hour1[j].style.background = fill;
         if(h2[i] === '1')
             hour2[j].style.background = fill;
