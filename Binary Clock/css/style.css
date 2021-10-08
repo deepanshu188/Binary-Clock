@@ -1,0 +1,20 @@
+body {
+    background: #000
+  }
+  
+  #clock {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .time {
+    font-size: 1.6rem;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+  }
+  
+  .row {
+    padding: 10px;
+  }
