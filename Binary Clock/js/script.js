@@ -30,8 +30,8 @@ setInterval(() => {
             hour2[j].style.background = fill;
         if(m1[i] === '1')
             min1[j].style.background = fill;
-        if(m2[j] === '1')
-            min2[i].style.background = fill;
+        if(m2[i] === '1')
+            min2[j].style.background = fill;
         j--;
     }
 
