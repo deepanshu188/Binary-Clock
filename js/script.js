@@ -26,16 +26,11 @@ setInterval(() => {
     let j = 3;
     
     for(let i = 0; i <= 3; i++) {
-            hour1[j].style.background = resetColor;
-            hour2[j].style.background = resetColor;
-            min1[j].style.background = resetColor;
-            min2[j].style.background = resetColor;
-        j--;
-    }
-    
-    j = 3;
-    
-    for(let i = 0; i <= 3; i++) {
+        hour1[j].style.background = resetColor;
+        hour2[j].style.background = resetColor;
+        min1[j].style.background = resetColor;
+        min2[j].style.background = resetColor;
+            
         if(h1[i] === '1')
             hour1[j].style.background = fill;
         if(h2[i] === '1')
