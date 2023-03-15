@@ -15,8 +15,8 @@ setInterval(() => {
   const hour = date.getHours();
   const minute = date.getMinutes();
 
-  const h = hour.toString();
-  const m = minute.toString();
+  let h = hour.toString();
+  let m = minute.toString();
 
   if (h <= 9) h = "0".concat(h);
 
